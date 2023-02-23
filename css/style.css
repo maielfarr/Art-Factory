@@ -1,0 +1,368 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url("../image/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header nav {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+header nav .lago {
+  width: 40%;
+  float: left;
+  color: #fff;
+}
+
+header ul {
+  float: left;
+  list-style: none;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  display: inline-block;
+  color: #fff;
+  margin: 0;
+  margin: 0 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .main-header {
+  color: #fff;
+  overflow: hidden;
+}
+
+header .main-header .left-header,
+.right-header {
+  float: left;
+  width: 50%;
+}
+
+header button {
+  background-color: red;
+  color: wheat;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Start section one */
+
+.features {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.image {
+  float: left;
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.Lorem {
+  float: right;
+  width: 50%;
+  line-height: 1.6;
+}
+
+.features button {
+  background-color: #00b4c6;
+  color: wheat;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+/*End Start section one */
+
+/* Start Section Two */
+.servs {
+  margin: 50px 0;
+}
+
+.servs,
+.l-ser {
+  overflow: hidden;
+}
+
+.servs .left,
+.right {
+  float: left;
+  width: 50%;
+}
+
+.servs .left .l-ser .icon,
+.des {
+  float: left;
+}
+.des {
+  width: 70%;
+}
+
+.servs .right img {
+  width: 100%;
+  height: 100%;
+}
+/* End Section Two */
+
+/* Start Section three */
+
+.section {
+  overflow: hidden;
+  background-color: #007bff;
+  padding: 30px 0;
+  margin: 50px 0;
+}
+
+.card {
+  float: left;
+  background-color: #fff;
+  width: 344px;
+  margin: 0 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.section .card-photo {
+  width: 50px;
+  margin: auto;
+}
+
+.section .card-text {
+  text-align: center;
+}
+
+.section button {
+  background-color: #00b4c6;
+  color: wheat;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+/* End Section three */
+
+/* Start Section for */
+
+.text {
+  text-align: center;
+}
+
+.sixty .left,
+.right {
+  float: left;
+  width: 50%;
+}
+
+.sixty .left span {
+  margin: 20px 0;
+  display: block;
+}
+
+.sixty .left button {
+  background-color: #00b4c6;
+  color: wheat;
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.sixty .right h2 {
+  color: blue;
+}
+
+.sixty .right p {
+  margin: 30px 0;
+}
+
+.sixty .right ul {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #ddd;
+}
+
+.sixty .right ul li {
+  background-color: #ccc;
+  margin: 5px 0;
+  padding: 15px 5px;
+}
+
+/* End Section for */
+
+
+.section-footer {
+  overflow: hidden;
+}
+
+.section-footer .left, .right {
+  width: 50%;
+  float: left;
+}
+
+.section-footer .right {
+  width: 40%;
+}
+.section-footer .left iframe {
+  width: 100%;
+  height: 400px;
+}
+
+
+.section-footer .right {
+  padding: 50px;
+  background-color: #00b4c6;
+}
+
+.section-footer .right form input {
+  padding: 10px;
+  margin-right: 50px;
+}
+
+
+.section-footer .right form textarea {
+  display: block;
+  width: 84%;
+  height: 140px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.section-footer .right form .sub {
+  border-radius: 20px;
+  width: 100px;
+  margin: 20px auto;
+  background-color: red;
+  color: #fff;
+  display: block;
+  border: none;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media (min-width:250px) and (max-width:1200px){
+  header ul {
+    display: none;
+  }
+  
+header nav .lago {
+  font-size: 25px;
+  width: 60%;
+
+}
+header .main-header .container{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+header .main-header .left-header{
+  width: 100%;
+
+}
+header  .main-header .right-header img{
+width: 100%;
+margin-bottom: 11px;
+}
+.features .container{
+  display: flex;
+  justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+.features .container .Lorem{
+    float: right;
+    width: 90%;
+    line-height: 1.6;
+    text-align: center;
+}
+.servs .container{
+  display: flex;
+  justify-content: space-between;
+flex-direction: column-reverse;
+align-items: center;
+
+}
+.servs .left{
+  text-align: center;
+  width: 90%;
+
+}
+.section .container{
+  display: flex;
+  justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+.section .card-text{
+  width: 95%;
+}
+.section .container {
+  display: flex;
+  justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+.sixty .left{
+  text-align: center;
+  width: 100%;
+}
+.section-footer .left, .right {
+  width: 95%;
+  float: left;
+  text-align: center;
+}
+.section-footer .left iframe {
+  width: 100%;
+  
+}
+.section-footer{
+  display: flex;
+  justify-content: space-between;
+flex-direction: column;
+align-items: center;
+
+}
+.section-footer .right form input{
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+    justify-content: center;
+}
+.section-footer .right form textarea {
+  width: 90%;
+}
+.section-footer .right {
+  width: 68%;
+}
+
+}
